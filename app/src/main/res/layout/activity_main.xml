@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/natalie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lylame"
+        android:textSize="30sp"
+        android:text="@string/nat"/>
+
+    <TextView
+        android:id="@+id/kunalben"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/natalie"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:text="@string/kb"/>
+
+    <TextView
+        android:id="@+id/kagure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:text="@string/kag"/>
+
+    <TextView
+        android:id="@+id/lylame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:text="@string/Ll"/>
+
+    <TextView
+        android:id="@+id/omoju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/anyjennie"
+        android:layout_alignParentEnd="true"
+        android:textSize="30sp"
+        android:text="@string/om"/>
+
+    <TextView
+        android:id="@+id/anyjennie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        android:text="@string/aj"/>
+
+
+
+</RelativeLayout>
