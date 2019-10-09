@@ -10,7 +10,7 @@
         android:id="@+id/natalie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/lylame"
+        android:layout_alignParentStart="true"
         android:textSize="30sp"
         android:text="@string/nat"/>
 
@@ -18,9 +18,10 @@
         android:id="@+id/kunalben"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toEndOf="@+id/natalie"
         android:textSize="30sp"
-        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/natalie"
+        android:layout_toLeftOf="@id/kagure"
         android:text="@string/kb"/>
 
     <TextView
